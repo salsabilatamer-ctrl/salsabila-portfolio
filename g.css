@@ -79,6 +79,11 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color:#7e82a9;
 }
+.header-text h2{
+    font-size: 26px;
+    margin-top: 20px;
+    margin-right: 400px;
+}
 
 /* ================= About ================= */
 #about{
@@ -426,3 +431,4 @@ nav .fa-solid {
         grid-template-columns: 1fr;  /* عمود واحد بس */
     }
 }
+
