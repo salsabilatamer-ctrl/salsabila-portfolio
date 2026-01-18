@@ -87,6 +87,7 @@ nav ul li a:hover::after{
 }
 .header-text h2{
     font-size: clamp(14px, 3vw, 22px);
+    margin-top:2%;
 }
 img{
     max-width: 100%;
@@ -432,5 +433,6 @@ nav .fa-solid {
         grid-template-columns: 1fr;  
     }
 }
+
 
 
