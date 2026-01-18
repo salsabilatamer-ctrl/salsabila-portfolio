@@ -360,9 +360,9 @@ nav .fa-solid {
 }
 
 @media only screen and (max-width: 768px) {
-    /* تحسين الـ header text عشان النص ما ينزلش أوي */
+  
     .header-text {
-        margin-top: 30%;  /* بدل 100% – جربي 40% أو 60% لو عايزة تعديل */
+        margin-top: 30%; 
         font-size: 16px;
     }
 
@@ -370,19 +370,19 @@ nav .fa-solid {
         font-size: 30px;
     }
 
-    /* إظهار الأيقونات بتاعة الـ menu */
+   
     nav .fa-solid {
         display: block;
         font-size: 25px;
-        color: #fff;              /* لون أبيض واضح */
-        cursor: pointer;          /* يبقى clickable */
+        color: #fff;             
+        cursor: pointer;        
         position: absolute;
         top: 20px;
         right: 20px;
         z-index: 1000;
     }
 
-    /* الـ close icon (الـ x) جوا الـ ul */
+  
     nav ul .fa-circle-xmark {
         position: absolute;
         top: 20px;
@@ -392,7 +392,7 @@ nav .fa-solid {
         cursor: pointer;
     }
 
-    /* الـ menu الجانبي */
+  
     nav ul {
         background: #5E548E;
         position: fixed;
@@ -428,13 +428,14 @@ nav .fa-solid {
         margin-bottom: 30px;
     }
 
-    /* تحسين للـ services و portfolio في الموبايل (اختياري) */
+    
     .services-list,
     .work-list {
-        grid-template-columns: 1fr;  /* عمود واحد بس */
+        grid-template-columns: 1fr;  
     }
-    #header{background-image: url(images/phone1.png);}
+    #header{background-image: url(images/phone2.png);}
 }
+
 
 
 
