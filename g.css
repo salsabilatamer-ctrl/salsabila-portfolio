@@ -433,8 +433,9 @@ nav .fa-solid {
     .work-list {
         grid-template-columns: 1fr;  /* عمود واحد بس */
     }
-    #header{background-image: url(images/phone.png);}
+    #header{background-image: url(images/phone1.png);}
 }
+
 
 
 
